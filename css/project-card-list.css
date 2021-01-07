@@ -1,0 +1,21 @@
+.project-card-list {
+	display: grid;
+	grid-template-columns: 2fr;
+	grid-gap: 40px;
+	justify-content: center;
+	padding: 20px 10px 10px 10px;
+}
+
+.project-card-01,
+.project-card-02 {
+	text-align: center;
+	position: relative;
+}
+
+.project-card-image {
+	width: 100%;
+	border: solid;
+	border-color: var(--yellowText);
+	border-width: 1px;
+	margin-bottom: 20px;
+}

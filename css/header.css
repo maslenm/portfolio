@@ -1,0 +1,35 @@
+.sticky-nav {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	text-align: center;
+}
+.nav-main ul li {
+	display: inline-block;
+	padding: 15px 15px 15px 15px;
+}
+
+h1 span:before {
+	content: "\A";
+	white-space: pre;
+}
+
+h2 span::before {
+	content: "\A";
+	white-space: pre;
+}
+
+h1,
+h2 {
+	display: inline-block;
+}
+
+h1 {
+	text-align: right;
+}
+
+h2 {
+	text-align: left;
+}

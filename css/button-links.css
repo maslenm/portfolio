@@ -1,0 +1,21 @@
+.button {
+	background-color: var(--darkGreyBg);
+	color: var(--whiteText);
+	font-size: var(--standardSize);
+	border-radius: 2px;
+	display: inline-block;
+	padding: 15px 25px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a.icon-social {
+	box-sizing: border-box;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a.project-card-more {
+	padding: 5px;
+	background-color: var(--darkGreyBg);
+}

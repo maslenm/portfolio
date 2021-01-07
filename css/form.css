@@ -1,0 +1,39 @@
+.form-contact {
+	background-color: var(--greyBg);
+	width: 100%;
+	padding: 10px;
+}
+
+textarea,
+input,
+label {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+
+input,
+textarea {
+	width: 80%;
+	border: 1px solid var(--formBorder);
+}
+
+label {
+	padding-top: 20px;
+	padding-bottom: 11px;
+}
+
+input {
+	height: 30px;
+	width: 50%;
+}
+
+textarea {
+	min-height: 100px;
+}
+
+.form-contact .button {
+	margin-top: 20px;
+}

@@ -1,0 +1,12 @@
+.socials ul li {
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.socials ul li a {
+	text-transform: uppercase;
+	font-size: var(--navSize);
+	color: var(--darkGrey);
+	text-decoration: none;
+}

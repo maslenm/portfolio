@@ -1,0 +1,13 @@
+.project-card-01 h4,
+.project-card-02 h4 {
+	margin-top: 10px;
+}
+
+.project-card p,
+.posted {
+	margin-bottom: 22px;
+}
+
+.project-card .category {
+	margin: 21px 21px;
+}

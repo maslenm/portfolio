@@ -1,0 +1,39 @@
+.about {
+	position: relative;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.about-header h3 {
+	text-align: center;
+	padding-top: 10px;
+	border-top: solid;
+	border-color: var(--yellowText);
+	border-width: 1px;
+}
+
+.about p {
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.about img {
+	padding: 20px 10px 5px 0px;
+	min-width: 150px;
+	width: 25%;
+	float: right;
+}
+
+@media screen and (min-width: 480px) {
+	.about {
+		display: grid;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		place-items: center;
+	}
+	.about img {
+		float: none;
+	}
+}

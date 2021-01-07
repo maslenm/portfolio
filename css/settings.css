@@ -1,0 +1,23 @@
+:root {
+	--lightPink: #fff0e9;
+	--brightBlue: #41cadd;
+	--offWhite: #fefefe;
+	--boldPink: #ff6a7c;
+	--darkGrey: #4a4a4a;
+	--tinySize: 13px;
+	--smallSize: 14px;
+
+	--navSize: 18px;
+	--logoSize: 36px;
+	--bigSize: 48px;
+	--formBorder: #b2b5ba;
+	/*  */
+	--greyBg: #474643;
+	--darkGreyBg: #363533;
+	--yellowText: #ffd55a;
+	--whiteText: #ffffff;
+	--largeSize: 24px;
+	--devSize: 20px;
+	--sectionSize: 20px;
+	--standardSize: 16px;
+}
